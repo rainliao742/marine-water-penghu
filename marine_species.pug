@@ -1,0 +1,147 @@
+doctype html
+html(lang="zh-Hant-TW")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title 歷年放流物種::澎湖水產流放資料官方網站
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	header.unit
+		.unit_banner_wrap
+			.colorbar
+				h3 澎湖縣水產種苗放流資訊網
+			a(href="#" alt="選單按鈕").menubtn
+			.banner.unit2
+			.title.unit2
+		include nav.pug
+	.menubg
+	body
+		main.unit 
+			.container
+				section.bread_wrap
+					.home.icon
+					span
+						a(href="index.html") 首頁
+						|  &gt; 
+						a(href="index.html") 歷年放流物種			
+				section.intro_wrap
+					.text 自1997-2020年共24年間總共放流32種水產種苗，包括魚類12種(嘉鱲、黃錫鯛、青嘴龍占、石斑、黑鯛、厚唇石鱸、條石鯛、黃鰭鯛、鮸魚、黃鱲伸、燕魚、石鱸)；軟體動物10種(九孔、銀塔鐘螺、馬蹄鐘螺、烏賊、水晶鳳凰螺、鳳螺、夜光蠑螺、硨磲貝、小眼花簾蛤、淺蜊)；甲殼類3種(梭子蟹、斑節蝦、沙蝦)；棘皮動物5種(海膽、馬糞海膽、紫海膽、黑海膽、雜色海膽)；刺胞動物1種(珊瑚)及藻類1種(紫菜苗)。以放流數量分析，魚類放流數量前3名分別為黃錫鯛(2,838,847)、嘉鱲(863,646)、青嘴龍占(609,059)；軟體動物前3名為銀塔鐘螺(9,349,188)、九孔(4,126,056)、水晶鳳凰螺(1,973,504)；甲殼類前3名為斑節蝦(61,662,324)、梭子蟹(1,981,541)及沙蝦(1,258,000)；棘皮動物前2名為紫海膽(127,808)及馬糞海膽(93,858)。
+			.container.fluid
+				section.table_wrap
+					.table-shadow
+					form(action="get", method="get")
+						select.prettySelect(name="regions")
+							option(value="魚類") 魚類
+							option(value="甲殼類") 甲殼類 
+							option(value="哺乳類") 哺乳類
+							option(value="兩棲類") 兩棲類
+							option(value="無脊椎類") 無脊椎類
+						.table_form_wrap
+							table
+								thead
+									tr
+										th
+										th 石泉里
+										th 光明里
+										th 光復里
+										th 光華里
+										th 光榮里
+										th 安宅里
+										th 石泉里
+										th 西文里
+								tbody
+									tr
+										td 項目1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+									tr
+										td 項目2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+									tr
+										td 項目3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+									tr
+										td 項目4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+									tr
+										td 項目5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+									tr
+										td 項目6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+									tr
+										td 項目7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+									tr
+										td 項目8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+									tr
+										td 項目9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9												
+	include footer.pug
+
+
+		

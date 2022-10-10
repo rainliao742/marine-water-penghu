@@ -1,0 +1,147 @@
+doctype html
+html(lang="zh-Hant-TW")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title 年度別水產種苗放流總表::澎湖水產流放資料官方網站
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	header.unit
+		.unit_banner_wrap
+			.colorbar
+				h3 澎湖縣水產種苗放流資訊網
+			a(href="#" alt="選單按鈕").menubtn
+			.banner.unit5
+			.title.unit5
+		include nav.pug
+	.menubg
+	body
+		main.unit 
+			.container
+				section.bread_wrap
+					.home.icon
+					span
+						a(href="index.html") 首頁
+						|  &gt; 
+						a(href="index.html") 年度別水產種苗放流總表			
+				section.intro_wrap
+					.text 澎湖縣水產種苗繁殖場為澎湖縣政府農漁局轄下的二級機關，肩負澎湖海域之水產種苗生產暨海洋資源保育等相關工作，自民國86年起迄今，每年皆於澎湖海域各處進行水產種苗放流工作，為充分利用先前數據做為未來業務發展之依據，於110年執行澎湖海域水產種苗放流地圖繪製調查研究時，委託國立澎湖科技大學盤點並分析自民國86至109年的執行成果，並依年度別將各年度之放流物種及數量列表呈現。
+			.container.fluid
+				section.table_wrap
+					.table-shadow
+					form(action="get", method="get")
+						select.prettySelect(name="regions")
+							option(value="魚類") 魚類
+							option(value="甲殼類") 甲殼類 
+							option(value="哺乳類") 哺乳類
+							option(value="兩棲類") 兩棲類
+							option(value="無脊椎類") 無脊椎類
+						.table_form_wrap
+							table
+								thead
+									tr
+										th
+										th 石泉里
+										th 光明里
+										th 光復里
+										th 光華里
+										th 光榮里
+										th 安宅里
+										th 石泉里
+										th 西文里
+								tbody
+									tr
+										td 項目1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+									tr
+										td 項目2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+									tr
+										td 項目3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+									tr
+										td 項目4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+									tr
+										td 項目5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+									tr
+										td 項目6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+									tr
+										td 項目7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+									tr
+										td 項目8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+									tr
+										td 項目9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9												
+	include footer.pug
+
+
+		

@@ -1,0 +1,73 @@
+doctype html
+html(lang="zh-Hant-TW")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title 放流輔具改良::澎湖水產流放資料官方網站
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	header.unit
+		.unit_banner_wrap
+			.colorbar
+				h3 澎湖縣水產種苗放流資訊網
+			a(href="#" alt="選單按鈕").menubtn
+			.banner.unit4
+			.title.unit4
+		include nav.pug
+	.menubg
+	body
+		main.unit 
+			.container
+				section.bread_wrap
+					.home.icon
+					span
+						a(href="index.html") 首頁
+						|  &gt; 
+						a(href="index.html") 放流輔具改良			
+				section.intro_wrap
+					.text 政府漁政機關為改善海洋漁業資源頻臨匱竭之危機，已進行魚蝦貝苗放流多年，雖然立意良善，也有學術理論基礎，惟多年來並未建立放流標準作業流程與方法。各級地方政府因而發展出各種不同之放流方法例如經由小朋友提著小水桶在海邊直接將魚苗倒入海裡或是利用魚梯讓魚順著水道滑入海裡(圖1)，或是經由漁船載運而放入海裡(圖2)；而使用的陸上放流輔具如前述的水桶，魚梯等，海裡的輔具就較多樣化，如結合塑膠管、木材及鐵條構成的海上浮動小型箱網(圖3)，也有利用簡單浮球(圖2)或是帆布包裹保麗龍塊及繩索構成的所謂軟式箱網(圖4)，另一種是由高密度聚乙烯所作成的浮桶平台及浮框式箱網(圖5)，讓魚先經短暫中間育成適應後再行放流。
+				section.pic_album_wrap
+					h2 放流輔具｜
+					ul.pic_wrap
+						li
+							a(data-fancybox data-src="images/unit4_pic1_l.jpg" data-srcset="images/unit4_pic1_l.jpg")
+								.pic
+									img(src="images/unit4_pic1.png", alt="", srcset="")
+								span (圖1)
+									br
+									| 魚苗放流活動，民眾將魚苗放進水道，讓魚苗滑入海中。
+						li
+							a(data-fancybox data-src="images/unit4_pic2_l.jpg" data-srcset="images/unit4_pic2_l.jpg")
+								.pic
+									img(src="images/unit4_pic2.png", alt="", srcset="")
+								span (圖2)
+									br
+									| 人工培育的魚苗經由魚船載運到漁港旁海域，放入事先利用浮球架設的軟式箱網進行中間育成。
+						li
+							a(data-fancybox data-src="images/unit4_pic3_l.jpg" data-srcset="images/unit4_pic3_l.jpg")
+								.pic
+									img(src="images/unit4_pic3.png", alt="", srcset="")
+								span (圖3)
+									br
+									| 利用塑膠管，木材，網具及鐵條在海岸邊架設箱網，進行中間育成。
+						li
+							a(data-fancybox data-src="images/unit4_pic4_l.jpg" data-srcset="images/unit4_pic4_l.jpg")
+								.pic
+									img(src="images/unit4_pic4.png", alt="", srcset="")
+								span (圖4)
+									br
+									| 利用帆布包裹保利龍塊，繩索，網具及水下錨碇系統所構成的軟式箱網。
+						li
+							a(data-fancybox data-src="images/unit4_pic5_l.jpg" data-srcset="images/unit4_pic5_l.jpg")
+								.pic
+									img(src="images/unit4_pic5.png", alt="", srcset="")
+								span (圖5)
+									br
+									| 由高密度聚乙烯為材料做成的平台及箱網浮框。
+
+
+	include footer.pug
+
+
+		

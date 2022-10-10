@@ -1,0 +1,147 @@
+doctype html
+html(lang="zh-Hant-TW")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title 歷年放流地點::澎湖水產流放資料官方網站
+		link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="css/style.css")
+	header.unit
+		.unit_banner_wrap
+			.colorbar
+				h3 澎湖縣水產種苗放流資訊網
+			a(href="#" alt="選單按鈕").menubtn
+			.banner.unit1
+			.title.unit1
+		include nav.pug
+	.menubg
+	body
+		main.unit 
+			.container
+				section.bread_wrap
+					.home.icon
+					span
+						a(href="index.html") 首頁
+						|  &gt; 
+						a(href="index.html") 歷年放流地點			
+				section.intro_wrap
+					.text 自1997-2020年共24年間分別於各市、鄉、村進行放流工作，其中馬公市放流地點21處(雞籠嶼、桶盤、鐵線、烏崁、鎖港、山水、五德、案山、前寮、菜園、井垵、蒔裡、青灣、風櫃、蛇頭山、觀音亭、安宅、西衛、重光、師公礁及虎井)；湖西鄉12處(隘門、林投、尖山、龍門、雞善、南寮、北寮、菓葉、紅羅、白坑、沙港及中西)；白沙鄉15處(講美、城前、港子、岐頭、員貝、赤崁、鳥嶼、吉貝、目斗嶼、姑婆嶼、瓦峒、後寮、通梁及大倉)；西嶼鄉11處(橫礁、合界，竹灣、小門、大池、池東、二崁、牛心灣、赤馬、內垵及外垵)；離島2處(望安及七美)；再依每一放流地點放流的物種數排序:馬公蒔裡14物種、井垵及山水各11物種及風櫃及青灣各9物種；湖西鄉沙港7物種、北寮6物種及白坑5物種；白沙鄉大倉7種、赤崁6種及城前5種；西嶼竹灣、池東及牛心灣皆5種；離島的望安鄉7種及七美鄉9種。
+			.container.fluid
+				section.table_wrap
+					.table-shadow
+					form(action="get", method="get")
+						select.prettySelect(name="regions")
+							option(value="預設") 馬公市
+							option(value="馬公市") 馬公市 
+							option(value="馬公市") 馬公市
+							option(value="馬公市") 馬公市
+							option(value="馬公市") 馬公市
+						.table_form_wrap
+							table
+								thead
+									tr
+										th
+										th 石泉里
+										th 光明里
+										th 光復里
+										th 光華里
+										th 光榮里
+										th 安宅里
+										th 石泉里
+										th 西文里
+								tbody
+									tr
+										td 項目1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+										td 資料1
+									tr
+										td 項目2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+										td 資料2
+									tr
+										td 項目3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+										td 資料3
+									tr
+										td 項目4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+										td 資料4
+									tr
+										td 項目5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+										td 資料5
+									tr
+										td 項目6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+										td 資料6
+									tr
+										td 項目7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+										td 資料7
+									tr
+										td 項目8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+										td 資料8
+									tr
+										td 項目9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9
+										td 資料9												
+	include footer.pug
+
+
+		
