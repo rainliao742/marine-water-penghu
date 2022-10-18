@@ -79,6 +79,13 @@ ul{
 	margin-bottom:0;
 }
 
+//解決手機版字體問題
+footer{
+-webkit-text-size-adjust: 100%;
+}
+
+
+
 //-首頁選單
 header{
 	.colorbar{
@@ -592,7 +599,7 @@ main{
 					font-size: 40px;
 				}
 				@include phone-l-500{
-					font-size: 30px;
+					font-size: 28px;
 				}											
 			}
 			h3{
@@ -1352,6 +1359,7 @@ footer{
 			}			
 		}
 		.contact{
+			-webkit-text-size-adjust: 100%;
 			font-size: 18px;
 			line-height: 2;
 			@include pad-xs-767{
@@ -1361,6 +1369,13 @@ footer{
 			@include phone-xl-600{
 				font-size: 16px;
 				line-height:1.8;
+			}
+			span.tel{
+				font-size: 18px;
+				@include phone-xl-600{
+					font-size: 16px;
+					line-height:1.8;
+				}				
 			}		
 		}
 		.copyright{
@@ -1403,6 +1418,6 @@ footer{
 	cursor:pointer;
 	z-index: 98;
 	@include pad-xs-767{
-		display: block;
+		display: none;
 	}
 }

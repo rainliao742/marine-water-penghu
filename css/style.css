@@ -33,6 +33,10 @@ ul {
   margin-bottom: 0;
 }
 
+footer {
+  -webkit-text-size-adjust: 100%;
+}
+
 header .colorbar {
   background-color: #000066;
   height: 42px;
@@ -626,7 +630,7 @@ main .banner_wrap .text-wrap h1 {
 }
 @media screen and (max-width: 500px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 main .banner_wrap .text-wrap h3 {
@@ -1443,6 +1447,7 @@ footer .container a:hover {
   }
 }
 footer .container .contact {
+  -webkit-text-size-adjust: 100%;
   font-size: 18px;
   line-height: 2;
 }
@@ -1454,6 +1459,15 @@ footer .container .contact {
 }
 @media screen and (max-width: 600px) {
   footer .container .contact {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+footer .container .contact span.tel {
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  footer .container .contact span.tel {
     font-size: 16px;
     line-height: 1.8;
   }
@@ -1498,7 +1512,7 @@ footer .container .copyright {
 }
 @media screen and (max-width: 767px) {
   .mobile_top_btn {
-    display: block;
+    display: none;
   }
 }
 

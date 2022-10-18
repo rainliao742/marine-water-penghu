@@ -31,11 +31,11 @@
   <body>
     <main>
       <div class="banner_wrap">
-        <video src="video/index_banner.MOV" muted autoplay loop></video>
-        <div class="index_banner"></div>
-        <div class="dark_retangle"></div>
-        <div class="grid_blue"></div>
-        <div class="text-wrap">
+        <video src="video/index_banner.MOV" muted autoplay playsinline loop></video>
+        <div class="index_banner" style="z-index:2;"></div>
+        <div class="dark_retangle" style="z-index:2;"></div>
+        <div class="grid_blue" style="z-index:2;"></div>
+        <div class="text-wrap" style="z-index:2;">
           <h1>澎湖縣<br>水產種苗放流資訊網</h1>
           <h3>Artificial Propagation Release Records <br>of Marine Life in Penghu Waters, Taiwan</h3>
         </div>
@@ -92,4 +92,29 @@
   <div class="mobile_top_btn"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+  <script>
+    $('.menubtn').on('click',function(){
+    	$('nav').fadeIn(500);
+    	$('.menubg').fadeIn(500);
+    });
+    $('.close_btn').on('click',function(){
+    	$('nav').fadeOut(500);
+    	$('.menubg').fadeOut(500);
+    })
+    $('.mobile_top_btn').on('click',goTop);
+    function goTop(e){
+    	console.log('test');
+    	$('html, body').animate({
+    		scrollTop:0
+    	}, 700);
+    }
+    window.addEventListener("scroll",function(){
+    	if(window.scrollY < 800){
+    		$('.mobile_top_btn').css('display','none');
+    	}else{
+    		$('.mobile_top_btn').css('display','block');
+    	}
+    });
+    	
+  </script>
 </html>
