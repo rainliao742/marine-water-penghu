@@ -1034,7 +1034,7 @@ main.unit{
 					background-size: 16px 26px;
 					@include phone-xl-600{
 						font-size: 16px;
-						height: 50px;
+						min-height: 50px;
 						width: 180px;
 					}					
 					&:focus{
