@@ -1050,12 +1050,69 @@ main.unit{
 					background-color:$tableGary;
 					padding:1.5rem;
 					border-radius:0 30px 30px 30px;
-					overflow-x: auto;
+					overflow: scroll;
+					height:600px;
 					table{
 						color:#fff;
 						display:table;
 						width: 100%;
 						min-width: 900px;
+						border-spacing: 10px;
+						thead,tbody{
+							width: 100%;
+						}
+						tr{
+							width: 100%;
+							th{
+								font-size: 20px;
+								text-align: center;	
+								background-color:$tableDarkGary;
+								padding:0.5rem 1rem;
+								white-space:nowrap;
+								@include phone-xl-600{
+									font-size: 16px;
+								}
+							}
+							td{
+								font-size: 20px;
+								text-align: center;
+								padding:0.5rem 1rem;
+								background-color: $tableLightGary;
+								color:$gary;
+								&:first-child{
+									background-color:$tableDarkGary;
+									color:#fff;
+									white-space:nowrap;
+								}
+								@include phone-xl-600{
+									font-size: 16px;
+								}								
+							}
+							&:nth-child(even){
+								td{
+									background-color: $tdDarkGary;
+									color:#fff;
+									&:first-child{
+										background-color:$tableDarkGary;
+									}
+								}
+							}						
+						}
+					}
+				}
+				.table_form_wrap_2{
+					border: 1px solid #000;
+					width: 100%;
+					position: relative;
+					background-color:$tableGary;
+					padding:1.5rem;
+					border-radius:0 30px 30px 30px;
+					overflow: scroll;
+					table{
+						color:#fff;
+						display:table;
+						width: 100%;
+						// min-width: 900px;
 						border-spacing: 10px;
 						thead,tbody{
 							width: 100%;
