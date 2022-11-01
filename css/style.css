@@ -628,6 +628,12 @@ main .banner_wrap video {
   }
 }
 
+@media screen and (max-width: 600px) {
+  main .banner_wrap {
+    height: 250px;
+  }
+}
+
 main .banner_wrap .index_banner {
   height: 100%;
   width: 70%;
@@ -758,7 +764,7 @@ main .banner_wrap .text-wrap {
 }
 
 main .banner_wrap .text-wrap h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -766,42 +772,43 @@ main .banner_wrap .text-wrap h1 {
 
 @media screen and (max-width: 1080px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 60px;
+    font-size: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 
 @media screen and (max-width: 500px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 
 main .banner_wrap .text-wrap h3 {
   color: #fff;
-  font-size: 36px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1080px) {
-  main .banner_wrap .text-wrap h3 {
-    font-size: 28px;
-  }
-}
-
-@media screen and (max-width: 767px) {
   main .banner_wrap .text-wrap h3 {
     font-size: 20px;
   }
 }
 
+@media screen and (max-width: 767px) {
+  main .banner_wrap .text-wrap h3 {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   main .banner_wrap .text-wrap h3 {
-    font-size: 18px;
+    font-size: 10px;
+    white-space: nowrap;
   }
 }
 

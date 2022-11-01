@@ -502,6 +502,9 @@ main{
 		@include pad-xs-767{
 			height: 400px;
 		}
+		@include phone-xl-600{
+			height: 250px;
+		}
 		.index_banner{
 			height: 100%;
 			width: 70%;
@@ -588,31 +591,32 @@ main{
 				width: 80%;
 			}						
 			h1{
-				font-size: 80px;
+				font-size: 60px;
 				color:#fff;
 				line-height: 1.2;
 				margin-bottom:10px;
 				@include pad-m-1080{
-					font-size: 60px;
+					font-size: 56px;
 				}
 				@include pad-xs-767{
-					font-size: 40px;
+					font-size: 44px;
 				}
 				@include phone-l-500{
-					font-size: 28px;
+					font-size: 30px;
 				}											
 			}
 			h3{
 				color:#fff;
-				font-size: 36px;
+				font-size: 22px;
 				@include pad-m-1080{
-					font-size: 28px;
-				}
-				@include pad-xs-767{
 					font-size: 20px;
 				}
+				@include pad-xs-767{
+					font-size: 16px;
+				}
 				@include phone-l-500{
-					font-size:18px;
+					font-size:10px;
+					white-space:nowrap;
 				}												
 			}
 		}
