@@ -70,7 +70,7 @@ header .colorbar h3 {
 
 @media screen and (max-width: 500px) {
   header .colorbar h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -242,7 +242,7 @@ header.unit .unit_banner_wrap {
 
 @media screen and (max-width: 600px) {
   header.unit .unit_banner_wrap {
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -279,7 +279,7 @@ header.unit .unit_banner_wrap .colorbar h3 {
 
 @media screen and (max-width: 500px) {
   header.unit .unit_banner_wrap .colorbar h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -627,7 +627,15 @@ main .banner_wrap video {
     height: 400px;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 600px) {
+  main .banner_wrap {
+    height: 200px;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main .banner_wrap .index_banner {
   height: 100%;
   width: 70%;
@@ -710,7 +718,7 @@ main .banner_wrap .grid_blue {
   main .banner_wrap .grid_blue {
     width: 60px;
     height: 45px;
-    top: 10px;
+    top: 20px;
     left: calc(100% - 84px);
     background: url(../images/mobile/grids_icon.png) no-repeat 0 0;
     background-size: contain;
@@ -753,12 +761,12 @@ main .banner_wrap .text-wrap {
             transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    width: 80%;
+    width: auto;
   }
 }
 
 main .banner_wrap .text-wrap h1 {
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -766,29 +774,31 @@ main .banner_wrap .text-wrap h1 {
 
 @media screen and (max-width: 1080px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 60px;
+    font-size: 56px;
   }
 }
 
 @media screen and (max-width: 767px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 
 @media screen and (max-width: 500px) {
   main .banner_wrap .text-wrap h1 {
-    font-size: 28px;
+    font-size: 30px;
+    white-space: nowrap;
   }
 }
 
 main .banner_wrap .text-wrap h3 {
   color: #fff;
-  font-size: 36px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1080px) {
   main .banner_wrap .text-wrap h3 {
+<<<<<<< HEAD
     font-size: 28px;
   }
 }
@@ -799,9 +809,20 @@ main .banner_wrap .text-wrap h3 {
   }
 }
 
+=======
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  main .banner_wrap .text-wrap h3 {
+    font-size: 16px;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 @media screen and (max-width: 500px) {
   main .banner_wrap .text-wrap h3 {
-    font-size: 18px;
+    font-size: 10px;
+    white-space: nowrap;
   }
 }
 
@@ -848,7 +869,15 @@ main .container .grid_blue {
     background-size: contain;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 500px) {
+  main .container .grid_blue {
+    left: 10%;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main .container .short_cut_wrap {
   width: 100%;
   max-width: 1080px;
@@ -1008,6 +1037,7 @@ main .container section h2 {
 @media screen and (max-width: 600px) {
   main .container section h2 {
     text-align: center;
+    font-size: 24px;
     padding: 2rem 0 1rem 0;
   }
 }
@@ -1022,8 +1052,12 @@ main .container section .text {
 
 @media screen and (max-width: 767px) {
   main .container section .text {
-    text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .container section .text {
+    font-size: 14px;
   }
 }
 
@@ -1090,9 +1124,14 @@ main .container .plan_wrap .text {
 }
 
 main .container .video_intro_wrap ul.video_wrap {
+<<<<<<< HEAD
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+  width: 90%;
+  margin: 0 auto;
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -1125,13 +1164,13 @@ main .container .video_intro_wrap ul.video_wrap li:nth-child(3n) {
 @media screen and (max-width: 600px) {
   main .container .video_intro_wrap ul.video_wrap li {
     width: 100%;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 2rem 0;
   }
   main .container .video_intro_wrap ul.video_wrap li:nth-child(2n) {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 2rem 0;
   }
   main .container .video_intro_wrap ul.video_wrap li:nth-child(3n) {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 2rem 0;
   }
 }
 
@@ -1152,7 +1191,7 @@ main .container .video_intro_wrap ul.video_wrap li:hover a {
 main .container .video_intro_wrap ul.video_wrap li .pic {
   width: 100%;
   position: relative;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 main .container .video_intro_wrap ul.video_wrap li .pic img {
@@ -1192,6 +1231,11 @@ main .container .video_intro_wrap ul.video_wrap li a {
 
 main .container .video_intro_wrap ul.video_wrap li a:hover {
   color: #3dbee8;
+}
+@media screen and (max-width: 500px) {
+  main .container .video_intro_wrap ul.video_wrap li a {
+    font-size: 16px;
+  }
 }
 
 main.unit {
@@ -1268,7 +1312,16 @@ main.unit .container section .text {
     font-size: 18px;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 500px) {
+  main.unit .container section .text {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .bread_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1492,7 +1545,10 @@ main.unit .container .table_wrap form .table_form_wrap table tr:nth-child(even) 
 main.unit .container .table_wrap form .table_form_wrap table tr:nth-child(even) td:first-child {
   background-color: #484848;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 {
   border: 1px solid #000;
   width: 100%;
@@ -1502,13 +1558,17 @@ main.unit .container .table_wrap form .table_form_wrap_2 {
   border-radius: 0 30px 30px 30px;
   overflow: scroll;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 table {
   color: #fff;
   display: table;
   width: 100%;
   border-spacing: 10px;
 }
+<<<<<<< HEAD
 
 main.unit .container .table_wrap form .table_form_wrap_2 table thead, main.unit .container .table_wrap form .table_form_wrap_2 table tbody {
   width: 100%;
@@ -1518,6 +1578,14 @@ main.unit .container .table_wrap form .table_form_wrap_2 table tr {
   width: 100%;
 }
 
+=======
+main.unit .container .table_wrap form .table_form_wrap_2 table thead, main.unit .container .table_wrap form .table_form_wrap_2 table tbody {
+  width: 100%;
+}
+main.unit .container .table_wrap form .table_form_wrap_2 table tr {
+  width: 100%;
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 table tr th {
   font-size: 20px;
   text-align: center;
@@ -1525,13 +1593,19 @@ main.unit .container .table_wrap form .table_form_wrap_2 table tr th {
   padding: 0.5rem 1rem;
   white-space: nowrap;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 @media screen and (max-width: 600px) {
   main.unit .container .table_wrap form .table_form_wrap_2 table tr th {
     font-size: 16px;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 table tr td {
   font-size: 20px;
   text-align: center;
@@ -1539,28 +1613,43 @@ main.unit .container .table_wrap form .table_form_wrap_2 table tr td {
   background-color: #ebebeb;
   color: #676767;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 table tr td:first-child {
   background-color: #484848;
   color: #fff;
   white-space: nowrap;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 @media screen and (max-width: 600px) {
   main.unit .container .table_wrap form .table_form_wrap_2 table tr td {
     font-size: 16px;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .table_wrap form .table_form_wrap_2 table tr:nth-child(even) td {
   background-color: #757575;
   color: #fff;
 }
+<<<<<<< HEAD
 
 main.unit .container .table_wrap form .table_form_wrap_2 table tr:nth-child(even) td:first-child {
   background-color: #484848;
 }
 
+=======
+main.unit .container .table_wrap form .table_form_wrap_2 table tr:nth-child(even) td:first-child {
+  background-color: #484848;
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 main.unit .container .video_intro_wrap ul.video_wrap {
   width: 100%;
   display: -webkit-box;
@@ -1844,7 +1933,21 @@ footer .container h2 {
     font-size: 32px;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 767px) {
+  footer .container h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer .container h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 footer .container h2::after {
   content: '';
   position: absolute;
@@ -1869,13 +1972,22 @@ footer .container a:hover {
 
 @media screen and (max-width: 767px) {
   footer .container a {
+    font-size: 20px;
     color: #4e4e4e;
   }
   footer .container a:hover {
     color: #000066;
   }
 }
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 500px) {
+  footer .container a {
+    font-size: 16px;
+  }
+}
+>>>>>>> 8d6cffd41c8a6423fce8d798fd0526767c424fe7
 footer .container .contact {
   -webkit-text-size-adjust: 100%;
   font-size: 18px;
@@ -1891,8 +2003,8 @@ footer .container .contact {
 
 @media screen and (max-width: 600px) {
   footer .container .contact {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
 
@@ -1902,8 +2014,8 @@ footer .container .contact span.tel {
 
 @media screen and (max-width: 600px) {
   footer .container .contact span.tel {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
 
@@ -1925,14 +2037,17 @@ footer .container .copyright {
     padding: 20px 5% 40px 5%;
     color: #fff;
     width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
   }
 }
 
 @media screen and (max-width: 600px) {
   footer .container .copyright {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 12px;
+    line-height: 1.6;
     text-align: center;
+    padding: 20px 5% 20px 5%;
   }
 }
 

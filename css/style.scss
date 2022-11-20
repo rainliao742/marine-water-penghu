@@ -104,7 +104,7 @@ header{
 				padding:0 0 0 5%;
 			}
 			@include phone-l-500{
-				font-size: 20px;
+				font-size: 16px;
 			}
 		}
 		@include pad-xs-767{
@@ -233,7 +233,7 @@ header.unit{
 		position: relative;
 		height: 340px;
 		@include phone-xl-600{
-			height: 250px;
+			height: 200px;
 		}
 		.colorbar{
 			background-color: $deeperBlue;
@@ -254,7 +254,7 @@ header.unit{
 					padding:0 0 0 5%;
 				}
 				@include phone-l-500{
-					font-size: 20px;
+					font-size: 16px;
 				}
 			}
 			@include pad-xs-767{
@@ -502,6 +502,9 @@ main{
 		@include pad-xs-767{
 			height: 400px;
 		}
+		@include phone-xl-600{
+			height: 200px;
+		}
 		.index_banner{
 			height: 100%;
 			width: 70%;
@@ -557,7 +560,7 @@ main{
 			@include pad-xs-767{
 				width:60px;
 				height: 45px;
-				top: 10px;
+				top: 20px;
 				left: calc(100% - 84px);
 				background: url(../images/mobile/grids_icon.png) no-repeat 0 0;
 				background-size: contain;
@@ -585,34 +588,36 @@ main{
 				@include transCenter(-50%,-50%);
 				left: 50%;
 				top: 50%;
-				width: 80%;
+				width: auto;
 			}						
 			h1{
-				font-size: 80px;
+				font-size: 60px;
 				color:#fff;
 				line-height: 1.2;
 				margin-bottom:10px;
 				@include pad-m-1080{
-					font-size: 60px;
+					font-size: 56px;
 				}
 				@include pad-xs-767{
-					font-size: 40px;
+					font-size: 44px;
 				}
 				@include phone-l-500{
-					font-size: 28px;
+					font-size: 30px;
+					white-space:nowrap;
 				}											
 			}
 			h3{
 				color:#fff;
-				font-size: 36px;
+				font-size: 22px;
 				@include pad-m-1080{
-					font-size: 28px;
-				}
-				@include pad-xs-767{
 					font-size: 20px;
 				}
+				@include pad-xs-767{
+					font-size: 16px;
+				}
 				@include phone-l-500{
-					font-size:18px;
+					font-size:10px;
+					white-space:nowrap;
 				}												
 			}
 		}
@@ -647,6 +652,9 @@ main{
 				left: 15%;
 				background: url(../images/mobile/grids_icon.png) no-repeat 0 0;
 				background-size: contain;
+			}
+			@include phone-l-500{
+				left: 10%;
 			}						
 		}		
 		.short_cut_wrap{
@@ -749,6 +757,7 @@ main{
 				}
 				@include phone-xl-600{
 					text-align: center;
+					font-size: 24px;
 					padding:2rem 0 1rem 0;
 				}				
 			}
@@ -759,9 +768,11 @@ main{
 				font-weight: 400;
 				padding:1rem 0;
 				@include pad-xs-767{
-					text-align: center;
-					font-size: 18px;
-				}								
+					font-size: 16px;
+				}
+				@include phone-l-500{
+					font-size: 14px;
+				}							
 			}
 		}
 		.plan_wrap{
@@ -801,7 +812,8 @@ main{
 		}
 		.video_intro_wrap{
 			ul.video_wrap{
-				width: 100%;
+				width: 90%;
+				margin:0 auto;
 				display: flex;
 				flex-wrap:wrap;
 				li{
@@ -824,12 +836,12 @@ main{
 					}
 					@include phone-xl-600{
 						width: 100%;
-						margin:0 0 1.5rem 0;
+						margin:0 0 2rem 0;
 						&:nth-child(2n){
-							margin:0 0 1.5rem 0;
+							margin:0 0 2rem 0;
 						}
 						&:nth-child(3n){
-							margin:0 0 1.5rem 0;
+							margin:0 0 2rem 0;
 						}						
 					}										
 					&:hover{
@@ -849,7 +861,7 @@ main{
 					.pic{
 						width: 100%;						
 						position: relative;
-						margin-bottom:0;
+						margin-bottom:1rem;
 						img{
 							width: 100%;
 							border-radius:10px;
@@ -879,6 +891,9 @@ main{
 						text-align: center;
 						&:hover{
 							color:$blue;
+						}
+						@include phone-l-500{
+							font-size: 16px;
 						}
 					}
 				}
@@ -936,7 +951,11 @@ main.unit{
 				@include pad-xs-767{
 					text-align: center;
 					font-size: 18px;
-				}								
+				}
+				@include phone-l-500{
+					text-align: center;
+					font-size: 16px;
+				}												
 			}
 		}
 		.bread_wrap{
@@ -1386,7 +1405,14 @@ footer{
 			position: relative;
 			@include pad-m-1080{
 				font-size: 32px;	
-			}			
+			}
+			@include pad-xs-767{
+				font-size: 24px;	
+			}
+			@include phone-l-500{
+				font-size: 20px;
+				margin-bottom: 5px;	
+			}								
 			&::after{
 				content:'';
 				position: absolute;
@@ -1409,11 +1435,15 @@ footer{
 				color:$blue;
 			}
 			@include pad-xs-767{
+				font-size: 20px;
 				color:#4e4e4e;
 				&:hover{
 					color:$deepBlue;
 				}				
-			}			
+			}
+			@include phone-l-500{
+				font-size: 16px;
+			}						
 		}
 		.contact{
 			-webkit-text-size-adjust: 100%;
@@ -1424,14 +1454,14 @@ footer{
 				margin:0 auto 20px auto;
 			}
 			@include phone-xl-600{
-				font-size: 16px;
-				line-height:1.8;
+				font-size: 14px;
+				line-height:1.6;
 			}
 			span.tel{
 				font-size: 18px;
 				@include phone-xl-600{
-					font-size: 16px;
-					line-height:1.8;
+					font-size: 14px;
+					line-height:1.6;
 				}				
 			}		
 		}
@@ -1450,11 +1480,14 @@ footer{
 				padding:20px 5% 40px 5%;
 				color:#fff;
 				width: 100%;
+				font-size: 14px;
+				line-height:1.8;
 			}
 			@include phone-xl-600{
-				font-size: 16px;
-				line-height:1.8;
+				font-size: 12px;
+				line-height:1.6;
 				text-align: center;
+				padding:20px 5% 20px 5%;
 			}						
 		}
 		@include pad-s-900{
