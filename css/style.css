@@ -1165,19 +1165,30 @@ main.unit .container .table_wrap form select.prettySelect option {
   font-size: 16px;
   border: 1px solid #000;
 }
+main.unit .container .table_wrap form .gray_padding {
+  height: 1.5rem;
+  background-color: #c2c2c2;
+  width: 100%;
+  border-radius: 0 30px 0px 0px;
+}
+@media screen and (max-width: 600px) {
+  main.unit .container .table_wrap form .gray_padding {
+    height: 1rem;
+  }
+}
 main.unit .container .table_wrap form .table_form_wrap {
   width: 100%;
   background-color: #c2c2c2;
-  padding: 1.5rem;
-  border-radius: 0 30px 30px 30px;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  border-radius: 0 0px 30px 30px;
   overflow: scroll;
   height: 600px;
   box-sizing: border-box;
 }
 @media screen and (max-width: 600px) {
   main.unit .container .table_wrap form .table_form_wrap {
-    padding: 1rem;
-    height: 550px;
+    padding: 0 1rem 1rem 1rem;
+    height: 530px;
   }
 }
 main.unit .container .table_wrap form .table_form_wrap table {
